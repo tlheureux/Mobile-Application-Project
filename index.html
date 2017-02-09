@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>jQuery Mobile page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/themes/12345.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+
+</head>
+<body>
+
+<div id="page" data-role="page" data-theme="a" data-add-back-btn="true">
+
+	<div data-role="panel" id="myPanel">
+		<h2>Panel Header</h2>
+		<ul data-role="listview" data-theme="c">
+			<li class="menu"><a href="#grid">Grid</a></li>
+			<li class="menu"><a href="#form">Form</a></li>
+			<li class="menu"><a href="#favorite">Favorites</a></li>
+			<li class="menu"><a href="#webstore">Web Storage</a></li>
+			<li class="menu"><a href="#">Menu 5</a></li>
+			<li class="menu"><a href="#">Menu 6</a></li>
+		</ul>
+		<p>You can close this panel by clicking outside of it, pressing the Esc key, or by swiping.</p>
+	</div>
+
+	<div data-role="header" data-theme="a">
+		<div class="logo"><img src="download.jpg" width="218" height="145" alt=""/></div>
+	</div>	
+		
+	<div data-role="header">
+		<h1>Favorite Operating Systems</h1>
+		<a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
+	</div>
+
+	<div data-role="content">
+		<ul data-role="listview" data-theme="c" data-filter="true">
+			<li><a href="#gentoo">Gentoo</a></li>
+			<li><a href="#win7">Windows 7</a></li>
+			<li><a href="#win10">Windows 10</a></li>
+			<li><a href="#macos">MacOS</a></li>
+			<li><a href="#reactos">ReactOS</a></li>
+			<li><a href="#qnx">QNX</a></li>
+		</ul>
+	</div>
+	<div data-role="footer" data-theme="a">
+		<h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+ 	
+<div id="gentoo" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>Gentoo</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Gentoo Linux</h3>
+	  <p>Gentoo Linux is named after the fast-swimming gentoo penguin. 
+	  The name was chosen to reflect the potential speed improvements of machine-specific optimization, which is a major feature of Gentoo. 
+	  Gentoo package management is designed to be modular, portable, easy to maintain, and flexible. 
+	  Gentoo describes itself as a meta-distribution because of its adaptability, in that the majority of users have configurations and sets of installed programs which are unique to themselves. </p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div id="win7" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>Windows 7</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Windows 7</h3>
+	  <p>Windows 7 is an operating system released by Microsoft on October 22, 2009. It follows the previous (sixth) version of Windows, called Windows Vista.
+		Like previous versions of Windows, Windows 7 has a graphical user interface (GUI) that allows you to interact with items on the screen using a keyboard and mouse. 
+		However, Windows 7 is also includes a feature called "Windows Touch" that supports touchscreen input and multitouch functionality. 
+		For example, you can right-click a file by touching it with one finger and tapping it with another. 
+		You can also zoom in on an image by touching it with two fingers, then spreading your fingers apart. 
+		Windows 7 is bundled with several touch-ready programs that are designed for touchscreen use. </p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div id="win10" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>Windows 10</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Windows 10</h3>
+	  <p> Windows 10 is a major version of the Microsoft Windows operating system that was released on July 29, 2015. It is built on the Windows NT kernel and follows Windows 8.
+		Part of the reason Microsoft decided to name the 2015 release "Windows 10" (and skipped "Windows 9") is because the operating system is designed to be a new direction for Microsoft. 
+		One of the primary aims of Windows 10 is to unify the Windows experience across multiple devices, such desktop computers, tablets, and smartphones. 
+		As part of this effort, Microsoft developed Windows 10 Mobile alongside Windows 10 to replaces Windows Phone – Microsoft's previous mobile OS. 
+		Windows 10 also integrates other Microsoft services, such as Xbox Live and the Cortana voice recognition assistant.</p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div id="macos" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>Mac OS</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Mac OS</h3>
+	  <p>This is the operating system that runs on Macintosh computers. It is pronounced, "mack-oh-es." The Mac OS has been around since the first Macintosh was introduced in 1984. Since then, it has been continually updated and many new features have been added to it. Each major OS release is signified by a new number (i.e. Mac OS 8, Mac OS 9).
+		Since the core of the Mac OS was nearly decades old, Apple decided to completely revamp the operating system. In March of 2001, Apple introduced a completely new version of the Mac OS that was written from the ground up. 
+		The company dubbed it "Mac OS X," correctly pronounced "Mac OS 10." Unlike earlier versions of the Mac OS, Mac OS X is based on the same kernel as Unix and has many advanced administrative features and utilities. 
+		Though the operating system is much more advanced than earlier versions of the Mac OS, it still has the same ease-of-use that people have come to expect from Apple software. </p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div id="reactos" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>React OS</h1>
+	</div>
+	<div data-role="content">
+	  <h3>React OS</h3>
+	  <p> ReactOS is a free and open-sourced operating system based on the Windows NT architecture, providing support for existing applications and drivers, and an alternative to the current dominant consumer operating system.</p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div id="qnx" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>QNX</h1>
+	</div>
+	<div data-role="content">
+	  <h3>QNX</h3>
+	  <p> QNX is a mobile operating system that was originally developed for embedded systems. 
+	  The operating system’s developer, QNX Software Systems, was acquired by Research in Motion (RIM) and the OS adapted for use in the BlackBerry Playbook tablet. 
+	  The version of QNX used in the Playbook is known as the QNX Neutrino real-time operating system (RTOS).</p>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div data-role="page" id="form" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Form</h1>
+  </div>
+	<div data-role="content">
+			<p>This will test my HTML5 localStorage in my app.
+			</p>
+			<textarea class="localstorage" placeholder="Anything you type here will be saved with HTML5 localStorage." autofocus></textarea>
+			<button class="clear">Clear localStorage</button>
+			<button class="empty">Empty localStorage</button>
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div data-role="page" id="grid" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Grid</h1>
+  </div>
+  <div data-role="content">
+		<div class="ui-grid-d">
+		    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
+		    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:30px">Block B</div></div>
+			<div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Block C</div></div>
+			<div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:30px">Block D</div></div>
+			<div class="ui-block-e"><div class="ui-bar ui-bar-a" style="height:60px">Block E</div></div>
+		</div><!-- /grid-a -->
+
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div data-role="page" id="webstore" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Web Storage</h1>
+	</div>
+	<div data-role="content">
+	
+	<section>
+		<article>
+			Your Web Storage example:
+			<br />
+			<div id="divDataLocalStorage"></div>
+			<br />
+			Value
+			<input type="text" id="input1" />
+			<input type="button" id="btnSaveToLocalStorage" value="Save Text to Local Storage" />
+		</article>
+	</section>
+	<script src="min.js"></script>
+	
+	
+
+	</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Favorite OS &copy; 2017</h4>
+	</div>
+</div>
+
+<div data-role="page" id="favorite" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Your Favorites</h1>
+  </div>
+  <div data-role="content">
+
+	<form action="form.php" method="post">
+		<label for="fname">First name:</label>
+			<input type="text" name="fname" id="fname" data-clear-btn="true">
+
+		<label for="lname">Last name:</label>
+			<input type="text" name="lname" id="lname" data-clear-btn="true">
+
+		<label for="favorite">Favorite OS:</label>
+			<input type="text" name="favorite" id="favorite" data-clear-btn="true">
+			
+		<label for="pnumber">Phone Number:</label>		
+			<input type="number" name="pnumber" id="pnumber" data-clear-btn="true">
+			
+		<label for="email">Email Address:</label>
+			<input type="email" name="email" id="email" data-clear-btn="true">
+			
+			<input type="reset" value="Reset Button">
+			<input type="submit" value="Submit Button">
+	</form>
+
+	</div>
+	<div data-role="footer" data-theme="a">
+		<h4>Favorite OS &copy; 2017</h4>
+	</div>
+	
+</div>
+
+
+</body>
+</html>
